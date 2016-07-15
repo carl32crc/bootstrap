@@ -1,0 +1,24 @@
+# how to push on github
+
+1-Create a branch called 'gh-pages'
+
+git branch gh-pages
+
+
+2-We go to that brach
+
+git checkout gh-pages
+
+3-We do our changes in that branch w/ proper 'commit''s
+
+git add --all
+git commit -m "exemple"
+
+4-We 'push' our changes
+
+git push
+git push origin gh-pages
+
+Too see the list branches and our current branch
+
+git branch 
